@@ -96,7 +96,7 @@ button:focus {
       padding-top: 80px; } }
 
 .section_gap_bottom {
-  padding-bottom: 200px; }
+  padding-bottom: 20px; }
   @media (max-width: 1199px) {
     .section_gap_bottom {
       padding-bottom: 80px; } }
@@ -176,6 +176,7 @@ button:focus {
   outline: none !important;
   text-align: center;
   cursor: pointer;
+  text-transform: uppercase;
   border-radius: 5px;
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -183,7 +184,7 @@ button:focus {
   border: double 2px transparent;
   box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
   .primary_btn span {
-    padding: 0 45px; }
+    padding: 0 42px; }
   .primary_btn.tr-bg {
     background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
     border: 2px solid transparent;
@@ -460,8 +461,42 @@ button:focus {
 
 /* End Home Banner Area css
 ============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
 
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/*============== Elements Area css ================*/
+.mb-20 {
+  margin-bottom: 20px; }
 
+.mb-30 {
+  margin-bottom: 30px; }
+
+.sample-text-area {
+  padding: 100px 0px; }
+  .sample-text-area .title_color {
+    margin-bottom: 30px; }
+  .sample-text-area p {
+    line-height: 26px; }
+    .sample-text-area p b {
+      font-weight: bold;
+      color: #4458dc; }
+    .sample-text-area p i {
+      color: #4458dc;
+      font-style: italic; }
+    .sample-text-area p sup {
+      color: #4458dc;
+      font-style: italic; }
+    .sample-text-area p sub {
+      color: #4458dc;
+      font-style: italic; }
+    .sample-text-area p del {
+      color: #4458dc; }
+    .sample-text-area p u {
+      color: #4458dc; }
+
+/*============== End Elements Area css ================*/
 /*==============Elements Button Area css ================*/
 .elements_button .title_color {
   margin-bottom: 30px;
@@ -594,7 +629,56 @@ button:focus {
 
 /*==============End Elements Button Area css ================*/
 /* =================================== */
+/*  Elements Page Styles
+/* =================================== */
+/*---------- Start Elements Page -------------*/
+.generic-banner {
+  margin-top: 60px;
+  text-align: center; }
 
+.generic-banner .height {
+  height: 600px; }
+
+@media (max-width: 767.98px) {
+  .generic-banner .height {
+    height: 400px; } }
+.generic-banner .generic-banner-content h2 {
+  line-height: 1.2em;
+  margin-bottom: 20px; }
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content h2 br {
+    display: none; } }
+.generic-banner .generic-banner-content p {
+  text-align: center;
+  font-size: 16px; }
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content p br {
+    display: none; } }
+.generic-content h1 {
+  font-weight: 600; }
+
+.about-generic-area {
+  background: #fff; }
+
+.about-generic-area p {
+  margin-bottom: 20px; }
+
+.white-bg {
+  background: #fff; }
+
+.section-top-border {
+  padding: 50px 0;
+  border-top: 1px dotted #eee; }
+
+.switch-wrap {
+  margin-bottom: 10px; }
+
+.switch-wrap p {
+  margin: 0; }
+
+/*---------- End Elements Page -------------*/
 .sample-text-area {
   padding: 100px 0 70px 0; }
 
@@ -1598,16 +1682,7 @@ h6 {
 
 /* End About Us Area css
 ============================================================================================ */
-/* Start Barand Area css
-============================================================================================ */
-.brand_area {
-  padding-bottom: 170px; }
-  @media (max-width: 1199px) {
-    .brand_area {
-      padding-bottom: 80px; } }
 
-/* End Barand Area css
-============================================================================================ */
 /* Start Features Area css
 ============================================================================================ */
 .features_area {
@@ -1639,7 +1714,114 @@ h6 {
     background: #fff; }
 
 /* End Features Area css
+============================================================================================ */
+/* Start Brand Area css
+============================================================================================ */
+.single-brand-item {
+  width: 170px;
+  height: 100px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-shadow: none;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+  @media only screen and (max-width: 767px) {
+    .single-brand-item {
+      height: 100px;
+      width: 140px; } }
+  @media (max-width: 575px) {
+    .single-brand-item {
+      margin: 0px auto;
+      margin-bottom: 30px; } }
+  .single-brand-item .d-table-cell {
+    vertical-align: middle; }
+  .single-brand-item img {
+    max-width: 80px;
+    margin: 0 auto;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+    @media only screen and (max-width: 767px) {
+      .single-brand-item img {
+        max-width: 100px; } }
+  .single-brand-item:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
+    .single-brand-item:hover img {
+      filter: brightness(0%);
+      -o-filter: brightness(0%);
+      -ms-filter: brightness(0%);
+      -moz-filter: brightness(0%);
+      -webkit-filter: brightness(0%); }
 
+.client-info {
+  padding: 25px 30px;
+  background: #faf8ff;
+  text-align: center;
+  position: relative;
+  margin-top: 25px; }
+  @media only screen and (max-width: 991px) {
+    .client-info {
+      margin-top: 50px; } }
+  @media (max-width: 575px) {
+    .client-info {
+      padding-top: 50px; } }
+  .client-info:before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: -50px;
+    background: url(../img/client-info-bg.png) no-repeat;
+    height: 175px;
+    width: 175px; }
+    @media (max-width: 575px) {
+      .client-info:before {
+        background: none; } }
+  @media (max-width: 575px) {
+    .client-info .d-flex {
+      -ms-flex-align: center;
+      align-items: center; } }
+  .client-info .lage {
+    color: #854fee;
+    font-family: "Rubik", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 85px;
+    position: relative;
+    z-index: 9; }
+  .client-info .smll {
+    text-align: left;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-left: 20px; }
+
+.call-now {
+  padding-top: 50px;
+  text-align: left;
+  margin-bottom: 40px; }
+  @media (max-width: 575px) {
+    .call-now {
+      padding-top: 0px; } }
+  @media (max-width: 480px) {
+    .call-now h3 {
+      font-size: 17px; } }
+  .call-now p {
+    color: #854fee;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+  .call-now span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000; }
+
+/* End Brand Area css
+============================================================================================ */
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
@@ -1764,8 +1946,103 @@ h6 {
 
 /* End Portfolio Area css
 ============================================================================================ */
+/* Start Testimonial Area css
+============================================================================================ */
+.testimonial_area .owl-carousel .owl-dots {
+  display: block !important;
+  text-align: center; }
+  .testimonial_area .owl-carousel .owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    background: #d8d8d8;
+    border-radius: 17px;
+    display: inline-block;
+    margin-right: 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+    .testimonial_area .owl-carousel .owl-dots .owl-dot.active {
+      height: 12px;
+      width: 12px;
+      background: #854fee; }
+  @media (max-width: 991px) {
+    .testimonial_area .owl-carousel .owl-dots {
+      display: none !important; } }
+.testimonial_area .owl-carousel .owl-item img {
+  width: auto !important; }
 
+.testi_item {
+  padding: 50px 55px;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  margin: 0px 10px 80px;
+  box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.3);
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; }
+  @media (max-width: 991px) {
+    .testi_item {
+      margin-bottom: 0px; } }
+  @media (max-width: 575px) {
+    .testi_item {
+      padding: 30px 20px; } }
+  .testi_item img {
+    border-radius: 5px; }
+  .testi_item .col-lg-8 {
+    vertical-align: middle;
+    align-self: center; }
+  @media (max-width: 991px) {
+    .testi_item .testi_text {
+      margin-top: 50px; } }
+  .testi_item .testi_text h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  .testi_item .testi_text p {
+    margin-bottom: 0px; }
+  .testi_item:hover {
+    box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1); }
 
+/* End Testimonial Area css
+============================================================================================ */
+
+/*----------------------------------------------------*/
+@media (max-width: 1619px) {
+  /* Main Menu Area css
+  ============================================================================================ */
+  .header_area .navbar .search {
+    margin-left: 40px; }
+
+  /* End Main Menu Area css
+  ============================================================================================ */ }
+@media (max-width: 1199px) {
+  /* Main Menu Area css
+  ============================================================================================ */
+  .header_area .navbar .nav .nav-item {
+    margin-right: 28px; }
+
+  /* End Main Menu Area css
+  ============================================================================================ */
+  /* Home Banner Area css
+  ============================================================================================ */
+  .home_banner_area .banner_inner {
+    padding: 100px 0px; }
+
+  /* End Home Banner Area css
+  ============================================================================================ */
+  .header_area .navbar .primary_btn {
+    margin-left: 40px; }
+
+  .home_banner_area .banner_inner .banner_content h2 br {
+    display: none;
+    font-size: 36px; }
+
+  .home_banner_area .banner_inner .banner_content h2 {
+    font-size: 36px;
+    line-height: 45px; } }
+@media (max-width: 991px) {
   /* Main Menu Area css
   ============================================================================================ */
   .navbar-toggler {
@@ -1874,99 +2151,7 @@ h6 {
     padding-bottom: 80px !important;
     background-image: none !important;
     background-color: #fcf8ff; }
-
-  /* Blog page Area css
-  ============================================================================================ */
-  .categories_post img {
-    width: 100%; }
-
-  .categories_post {
-    max-width: 360px;
-    margin: 0 auto; }
-
-  .blog_categorie_area .col-lg-4 {
-    margin-top: 30px; }
-
-  .blog_area {
-    padding-bottom: 80px; }
-
-  .single-post-area .blog_right_sidebar {
-    margin-top: 30px; }
-
-  /* End Blog page Area css
-  ============================================================================================ */
-  /* Contact Page Area css
-  ============================================================================================ */
-  .contact_info {
-    margin-bottom: 50px; }
-
-  /* End Contact page Area css
-  ============================================================================================ */
-  .home_banner_area .donation_inner {
-    margin-bottom: -30px; }
-
-  .home_banner_area .dontation_item {
-    max-width: 350px;
-    margin: auto; }
-
-  /* Footer Area css
-  ============================================================================================ */
-  .footer_area .col-sm-6 {
-    margin-bottom: 30px; }
-
-  .footer_area .footer_inner {
-    margin-bottom: -30px; }
-
-
-  /* End End Footer Area css
-  ============================================================================================ */
-  .home_banner_area .banner_inner .home_left_img {
-    display: none; }
-
-  .header_area .navbar .primary_btn {
-    display: none; }
-
-  .left_side_text {
-    margin-bottom: 50px; }
-
-  .price_item {
-    max-width: 360px;
-    margin: 0px auto 30px; }
-
-  .price_inner {
-    margin-bottom: -30px; } }
-@media (max-width: 767px) {
-  .home_banner_area {
-    min-height: 300px; }
-
-  .home_banner_area .banner_inner {
-    min-height: 300px;
-    padding-top: 200px;
-    padding-bottom: 50px; }
-
-  .home_banner_area .banner_inner .banner_content {
-    margin-top: 0px; }
-    .home_banner_area .banner_inner .banner_content .primary_btn {
-      display: none; }
-
-  /* Blog Page Area css
-  ============================================================================================ */
-  .blog_info.text-right {
-    text-align: left !important;
-    margin-bottom: 10px; }
-
-  /* End Blog Page Area css
-  ============================================================================================ */
-  .home_banner_area .banner_inner .banner_content h3 {
-    font-size: 30px; }
-
-  .home_banner_area .banner_inner .banner_content p br {
-    display: none; }
-
-  .home_banner_area .banner_inner .banner_content h3 span {
-    line-height: 45px;
-    padding-bottom: 0px;
-    padding-top: 0px; }
+  
 
   /* Footer Area css
   ============================================================================================ */
@@ -2038,18 +2223,14 @@ h6 {
 
   /* End Elements Area css
   ============================================================================================ */
-  /* Blog Page Area css
-  ============================================================================================ */
-  .blog_details h2 {
-    font-size: 20px;
-    line-height: 30px; }
-
-  /* End Blog Page Area css
-  ============================================================================================ */
+  
   /* Footer Area css
   ============================================================================================ */
   .footer-area {
     padding: 70px 0px; }
+
+  .news_widget {
+    padding-left: 0 !important; }
 
   /* End End Footer Area css
   ============================================================================================ */
@@ -2080,13 +2261,7 @@ h6 {
   .banner_area .banner_inner .banner_content h2 {
     font-size: 32px; }
 
-  /* Blog Page Area css
-  ============================================================================================ */
-  .comments-area .thumb {
-    margin-right: 10px; }
-
-  /* End Blog Page Area css
-  ============================================================================================ */
+  
   .testi_item .media .d-flex {
     padding-right: 0px; }
 
@@ -2112,7 +2287,7 @@ h6 {
     content: none; }
 
 .footer_area {
-  padding: 120px 0;
+  padding: 20px 0;
   position: relative; }
   .footer_area:before {
     content: '';
@@ -2157,30 +2332,16 @@ h6 {
     .footer_area .footer_bottom a {
       color: #854fee; }
 
-#navbarSupportedContent {
-   /* Black background color */
-  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: auto; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  
-}
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
 
+/*# sourceMappingURL=style.css.map */
 
-
-.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
-  padding-bottom: 5px;
-}
-
-/* Style the navbar links */
-#navbarSupportedContent a {
-  float: left;
-  display: block;
-color: white;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
+/* navbar hide on scroll*/
+#navbarSupportedContent{
+  position: fixed;
+  top:0;
+  width:100%;
+  transition: top 0.3s;
 }
