@@ -2287,6 +2287,6 @@ h6 {
 #navbarSupportedContent{
   position: fixed;
   top:0;
-  width:100%;
+  width:auto;
   transition: top 0.3s;
 }
