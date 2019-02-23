@@ -1985,6 +1985,7 @@ h6 {
   ============================================================================================ */
   .navbar-toggler {
     border: none;
+    background-color: black;
     border-radius: 0px;
     padding: 0px;
     cursor: pointer;
@@ -2036,19 +2037,20 @@ h6 {
     padding: 0px; }
 
   .header_area .navbar .nav .nav-item .nav-link {
-    line-height: 40px;
+    line-height: 20px;
     margin-right: 0px;
     display: block;
     border-bottom: 1px solid #ededed33;
     border-radius: 0px;
-    color: #fff; }
+    color: black; }
 
   .header_area .navbar .search {
     margin-left: 0px; }
 
   .header_area .navbar-collapse {
     max-height: 340px;
-    overflow-y: scroll; }
+    padding-top: 45px;
+     }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     margin: 60px; 
