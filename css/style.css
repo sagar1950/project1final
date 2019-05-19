@@ -1,18 +1,11 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
+
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
 
-=====================================================================*/
-/*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
@@ -108,7 +101,7 @@ button:focus {
 ============================================================================================ */
 .main_title {
   text-align: center;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   color: black;
 }
   @media (max-width: 1199px) {
@@ -215,6 +208,13 @@ button:focus {
   width: 100%; }
 
 /*---------------------------------------------------- */
+
+.logo{
+  float:right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
 /*----------------------------------------------------*/
 .header_area {
   position: absolute;
@@ -234,7 +234,7 @@ button:focus {
       .header_area .navbar .nav .nav-item .nav-link {
         font: 500 14px/100px "Rubik", sans-serif;
         text-transform: uppercase;
-        color: #000000;
+        color: #ea5f40;
         padding-right: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
@@ -243,7 +243,7 @@ button:focus {
         color: #4458dc; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
-        
+
   .header_area.navbar_fixed .main_menu {
     position: fixed;
     width: 100%;
@@ -327,8 +327,8 @@ button:focus {
       .home_banner_area .banner_inner .banner_content h1 {
         margin-top: 20px;
         font-size: 70px;
-        line-height: 50px; 
-        margin-bottom: 10px; }  
+        line-height: 50px;
+        margin-bottom: 10px; }
         @media (max-width: 1024px) {
           .home_banner_area .banner_inner .banner_content h1 {
             font-size: 60px; } }
@@ -2058,11 +2058,11 @@ h6 {
      }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
-    margin: 60px; 
+    margin: 60px;
   }
 
 .header_area .navbar .nav .nav-item.submenu li .nav-item .nav-link {
-    padding: 0px 15px; 
+    padding: 0px 15px;
   }
 
   .header_area .navbar .nav .nav-item {
@@ -2103,7 +2103,7 @@ h6 {
     padding-bottom: 80px !important;
     background-image: none !important;
     background-color: #fcf8ff; }
-  
+
 
   /* Footer Area css
   ============================================================================================ */
@@ -2175,7 +2175,7 @@ h6 {
 
   /* End Elements Area css
   ============================================================================================ */
-  
+
   /* Footer Area css
   ============================================================================================ */
   .footer-area {
@@ -2213,7 +2213,7 @@ h6 {
   .banner_area .banner_inner .banner_content h2 {
     font-size: 32px; }
 
-  
+
   .testi_item .media .d-flex {
     padding-right: 0px; }
 
